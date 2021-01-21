@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+COLN=$1
+awk -v co="$COLN" '{print $co}' "$2"
